@@ -1,0 +1,28 @@
+Craete a Oject project
+ojet create training --template=navbar
+
+.npmrc file and add below lines to set proxy.
+
+http_proxy=http://www-proxy.us.oracle.com:80
+https_proxy=https://www-proxy.us.oracle.com:443
+proxy=http://www-proxy.us.oracle.com:80
+strict-ssl=false
+registry=http://registry.npmjs.org
+
+
+Clone Starter template
+Go inside & do yarn install
+npm install -g http-server
+Run Server
+http-server .
+Inside your starter
+open localhost:8080 and go to src folder
+You should see hello world in console without errors
+
+
+Add to path variable
+
+1.) Search environment variables at your start menu's search box. 
+2.) Click it then go to Environment Variables...
+3.) Click PATH, click Edit 
+4.) Click New and try to copy and paste this: C:\Program Files\nodejs\node_modules\npm\bin
